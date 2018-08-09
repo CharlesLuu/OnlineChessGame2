@@ -1,6 +1,8 @@
 body {
 	overflow-y: auto;
-	
+	background-image:url('/img/bg1.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
 	display: flex;
 	flex-flow: column;
 	align-content: center;
@@ -15,19 +17,16 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-	
-	.page.login .logo {
-		display: block;
-		background-color: lightgray;
-		background-image: url('/img/chesslogo.jpg');
-		background-size: cover;
-		background-position: center center;
 
-		margin-bottom: 50px;	
-		
-		width: 350px;
-		height: 350px;
-	}
+.page.login .logo {
+    background-image: url('/img/pawnC.png');
+    background-size: cover;
+    background-position: center center;
+    margin-left:100px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+}
 	
 	.page.login button {
 		margin-left: 15px;
